@@ -1,0 +1,59 @@
+body {
+	background-image: url("contents/img/parchemin.jpg");
+	background-attachment: fixed;
+	font-family: abhaya_libreregular;
+}
+
+@font-face {
+    font-family: 'italianaregular';
+    src: url('contents/fonts/italiana-regular-webfont.eot');
+    src: url('contents/fonts/italiana-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('contents/fonts/italiana-regular-webfont.woff2') format('woff2'),
+         url('contents/fonts/italiana-regular-webfont.woff') format('woff'),
+         url('contents/fonts/italiana-regular-webfont.ttf') format('truetype'),
+         url('contents/fonts/italiana-regular-webfont.svg#italianaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('contents/fonts/AbhayaLibre-Regular-webfont.eot');
+    src: url('contents/fonts/AbhayaLibre-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('contents/fonts/AbhayaLibre-Regular-webfont.woff2') format('woff2'),
+         url('contents/fonts/AbhayaLibre-Regular-webfont.woff') format('woff'),
+         url('contents/fonts/AbhayaLibre-Regular-webfont.ttf') format('truetype'),
+         url('contents/fonts/AbhayaLibre-Regular-webfont.svg#abhaya_libreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: italianaregular, Arial, Verdana, sans-serif;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: italianaregular, Arial, Verdana, sans-serif;
+	font-size: 1.7em;
+	font-weight: bolder;
+	color: #730B0B;
+}	
+
+.photo {
+	float: right;
+	box-shadow: 6px 6px 0 #450606;
+	margin-right: 50px;
+	border: solid black 1px; /* encadrement fin mais existant ! */
+}
+
+.texte {					/* div comprenant tout le corps de texte */
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+.citation {
+	font-size: 1.3em;
+}
